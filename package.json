@@ -1,0 +1,37 @@
+{
+  "name": "gulp-merge-json",
+  "description": "Convert list of json file in current stream to one JSON file.",
+  "version": "0.4.0",
+  "author": {
+    "name": "Oryan Mishali",
+    "email": "oryan.mishali@gmail.com"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "path": "^0.12.7",
+    "through2": "^2.0.0",
+    "vinyl": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "extension",
+    "combine",
+    "json"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks --require should test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks --require should test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks --require should test/"
+  }
+}
