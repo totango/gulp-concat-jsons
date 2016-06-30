@@ -1,6 +1,6 @@
 # gulp-concat-jsons
 
-#### Convert list of json file in current stream to one JSON file.
+#### Combine a list of json file in current stream to one JSON file.
 
 Add it to your gulp file:
 
