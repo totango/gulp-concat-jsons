@@ -1,10 +1,9 @@
 {
   "name": "gulp-concat-jsons",
-  "description": "Convert list of json file in current stream to one JSON file.",
+  "description": "Combine a list of json file in current stream to one JSON file.",
   "version": "0.4.0",
   "author": {
-    "name": "Oryan Mishali",
-    "email": "oryan.mishali@gmail.com"
+    "name": "totango"
   },
   "dependencies": {
     "gulp-util": "^3.0.7",
@@ -24,6 +23,7 @@
     "gulp",
     "gulpplugin",
     "extension",
+    "concat",
     "combine",
     "json"
   ],
