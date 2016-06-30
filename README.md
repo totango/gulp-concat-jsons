@@ -26,4 +26,4 @@ Outputs `out/merged.json`:
 $ npm install gulp-concat-jsons
 ```
 
-## [MIT Licensed](LICENSE)
+## [MIT Licensed](LICENSE.md)
