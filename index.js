@@ -24,12 +24,10 @@ module.exports = function(out, options) {
     }
 
     jsonList.push(JSON.parse(String(file.contents)));
-    console.log('file.contents', JSON.parse(String(file.contents)));
 
     this.push(file);
     cb();
   }, function(cb) {
-    console.log('jsonList', jsonList);
     var fileListFile = new File({
       path: out,
       contents: new Buffer(JSON.stringify(jsonList, null, '  '))
